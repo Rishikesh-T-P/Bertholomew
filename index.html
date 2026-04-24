@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bartholomew Richard — Research Assistant at IIT Palakkad. Investigating MXene heterostructures for biosensing, wearable transducers, and electrochemistry of 2D materials." />
+  <meta name="author" content="Bartholomew Richard" />
+  <meta name="theme-color" content="#0B0B0A" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bartholomew Richard — Research Assistant, IIT Palakkad" />
+  <meta property="og:description" content="Electrochemistry of 2D materials · MXene heterostructures · Biosensors." />
+  <meta property="og:type" content="website" />
+
+  <title>Bartholomew Richard — Research Assistant · IIT Palakkad</title>
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230B0B0A%22/><text x=%2250%22 y=%2268%22 font-family=%22serif%22 font-size=%2264%22 font-style=%22italic%22 fill=%22%23E8753B%22 text-anchor=%22middle%22>R</text></svg>" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Scroll progress indicator -->
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Subtle grain overlay -->
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand" aria-label="Home">
+      <span>Bartholomew</span>
+      <em>R.</em>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about" data-nav>About</a>
+      <a href="#research" data-nav>Research</a>
+      <a href="#publications" data-nav>Publications</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#awards" data-nav>Awards</a>
+      <a href="#contact" data-nav>Contact</a>
+    </nav>
+    <a href="#contact" class="nav__cta">
+      <span>Get in touch</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+    <button class="nav__menu" aria-label="Menu" id="menuToggle">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ═══════════════════════ HERO ═══════════════════════ -->
+  <section class="hero" id="top">
+    <div class="hero__bg" aria-hidden="true">
+      <svg class="hero__grid-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <defs>
+          <pattern id="dots" width="4" height="4" patternUnits="userSpaceOnUse">
+            <circle cx="0.5" cy="0.5" r="0.25" fill="currentColor" />
+          </pattern>
+        </defs>
+        <rect width="100" height="100" fill="url(#dots)" />
+      </svg>
+      <!-- Decorative hexagon (subtle nod to 2D materials) -->
+      <svg class="hero__hex" viewBox="0 0 200 200" aria-hidden="true">
+        <polygon points="100,10 190,55 190,145 100,190 10,145 10,55" fill="none" stroke="currentColor" stroke-width="0.5"/>
+        <polygon points="100,40 160,72 160,128 100,160 40,128 40,72" fill="none" stroke="currentColor" stroke-width="0.3"/>
+        <polygon points="100,70 130,87 130,113 100,130 70,113 70,87" fill="none" stroke="currentColor" stroke-width="0.3"/>
+      </svg>
+    </div>
+
+    <div class="hero__top">
+      <span class="eyebrow"><span class="eyebrow__dot"></span>Available for PhD positions · 2026 intake</span>
+      <span class="eyebrow eyebrow--right">01 · Portfolio / 2026</span>
+    </div>
+
+    <div class="hero__grid">
+      <h1 class="hero__title">
+        <span class="reveal"><span>Bartholomew</span></span>
+        <span class="reveal"><span class="italic">Richard<em class="dot">.</em></span></span>
+      </h1>
+
+      <div class="hero__image-wrap reveal-img">
+        <!--
+          ╔══════════════════════════════════════════════════════╗
+          ║  REPLACE THE DIV BELOW WITH YOUR PHOTO:              ║
+          ║  <img src="profile.jpg" alt="Bartholomew Richard" /> ║
+          ║  Recommended: 800×1000px, portrait orientation       ║
+          ╚══════════════════════════════════════════════════════╝
+        -->
+        <div class="hero__image">
+          <div class="image-placeholder">
+            <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+              <circle cx="40" cy="30" r="12"/>
+              <path d="M15 70c3-12 13-20 25-20s22 8 25 20"/>
+            </svg>
+            <span>your photo here</span>
+          </div>
+        </div>
+        <div class="hero__image-caption">
+          <span class="mono">FIG. 01</span>
+          <span>The researcher, <em>in situ</em>.</span>
+        </div>
+      </div>
+
+      <div class="hero__bio">
+        <p class="hero__role">
+          <span class="mono">Research Assistant</span>
+          <span class="hero__role-sep"></span>
+          Dept. of Chemistry &amp; Biological Sciences and Engineering, IIT Palakkad
+        </p>
+        <p class="hero__description">
+          Investigating the electrochemistry of two-dimensional materials at the frontier of biosensing. My work centres on <em>MXene heterostructures</em> — synthesised through soft templating, hydrothermal and solvothermal routes — and their deployment as real-time transducers for stress biomarkers, sleep hormones, and histaminosis.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary" data-magnetic>
+            <span>Download CV</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 4v12m-5-5l5 5 5-5M5 20h14"/></svg>
+          </a>
+          <a href="#publications" class="btn btn--ghost" data-magnetic>
+            <span>View publications</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__bottom">
+      <div class="hero__coords">
+        <span class="mono">10.7° N</span>
+        <span class="mono">76.7° E</span>
+        <span>Palakkad, Kerala · IN</span>
+      </div>
+      <div class="hero__scroll">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ MARQUEE ═══════════════════════ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>MXenes</span><span class="marquee__sep">✦</span>
+      <span>Biosensors</span><span class="marquee__sep">✦</span>
+      <span>2D Materials</span><span class="marquee__sep">✦</span>
+      <span>Electrochemistry</span><span class="marquee__sep">✦</span>
+      <span>Wearable Transducers</span><span class="marquee__sep">✦</span>
+      <span>Metal-Organic Frameworks</span><span class="marquee__sep">✦</span>
+      <span>Transition Metal Dichalcogenides</span><span class="marquee__sep">✦</span>
+      <span>MXenes</span><span class="marquee__sep">✦</span>
+      <span>Biosensors</span><span class="marquee__sep">✦</span>
+      <span>2D Materials</span><span class="marquee__sep">✦</span>
+      <span>Electrochemistry</span><span class="marquee__sep">✦</span>
+      <span>Wearable Transducers</span><span class="marquee__sep">✦</span>
+      <span>Metal-Organic Frameworks</span><span class="marquee__sep">✦</span>
+      <span>Transition Metal Dichalcogenides</span><span class="marquee__sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+  <section class="section about" id="about">
+    <header class="section__head">
+      <span class="section__num mono">§ 02</span>
+      <h2 class="section__title">About the <em>work</em>.</h2>
+      <p class="section__kicker">A brief introduction.</p>
+    </header>
+
+    <div class="about__grid">
+      <div class="about__body">
+        <p class="about__lead">
+          I'm a chemist working at the intersection of nanomaterials synthesis and electrochemistry — building the next generation of point-of-care and wearable biosensors.
+        </p>
+        <p>
+          Across six peer-reviewed publications and one filed patent, I've developed novel MXene heterostructures with transition metal oxides, dichalcogenides, and metal-organic frameworks. These architectures form the transducing heart of devices that detect stress, sleep, and histamine biomarkers in real time — from syringe-integrated yarn electrodes to wearable patches.
+        </p>
+        <p>
+          My training spans five institutes: IIT Palakkad, NIT Calicut, NIT Andhra Pradesh, IIT Indore, and Fatima Mata National College. I'm currently seeking doctoral positions in electrochemistry, nanomaterials, or biosensing.
+        </p>
+      </div>
+      <aside class="about__stats">
+        <div class="stat">
+          <span class="stat__num" data-count="6">0</span>
+          <span class="stat__label">Publications<br/>in ACS &amp; RSC journals</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="5">0</span>
+          <span class="stat__label">Research<br/>affiliations</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="3">0</span>
+          <span class="stat__label">Best-in-category<br/>awards</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="1">0</span>
+          <span class="stat__label">Indian patent<br/>filed</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ RESEARCH EXPERIENCE ═══════════════════════ -->
+  <section class="section research" id="research">
+    <header class="section__head">
+      <span class="section__num mono">§ 03</span>
+      <h2 class="section__title">Research <em>experience</em>.</h2>
+      <p class="section__kicker">Five institutes · four years · one trajectory.</p>
+    </header>
+
+    <ol class="timeline">
+      <li class="timeline__item">
+        <div class="timeline__date">
+          <span class="mono">Mar 2023 — Jul 2025</span>
+          <span class="timeline__place">IIT Palakkad</span>
+        </div>
+        <div class="timeline__body">
+          <h3>Research Assistant</h3>
+          <p>Investigating the electrochemical properties of MXene heterostructures — with transition metal oxides, dichalcogenides, and metal-organic frameworks — for next-generation biosensing applications.</p>
+          <div class="timeline__tags">
+            <span>MXene heterostructures</span>
+            <span>Biosensing</span>
+            <span>Electrochemistry</span>
+          </div>
+        </div>
+      </li>
+
+      <li class="timeline__item timeline__item--highlight">
+        <div class="timeline__date">
+          <span class="mono">Sep 2024 — Mar 2025</span>
+          <span class="timeline__place">NIT Calicut <span class="mono">(collab)</span></span>
+        </div>
+        <div class="timeline__body">
+          <h3>Research Assistant <span class="pill">Patent filed</span></h3>
+          <p>Investigating the catalytic role of MXene in interfacial polymerisation and its nanostructure in developing electrodes for combating antimicrobial resistance.</p>
+          <p class="mono timeline__patent">Indian Patent · Application No. 202541065580</p>
+        </div>
+      </li>
+
+      <li class="timeline__item">
+        <div class="timeline__date">
+          <span class="mono">Nov 2022 — Feb 2023</span>
+          <span class="timeline__place">NIT Andhra Pradesh</span>
+        </div>
+        <div class="timeline__body">
+          <h3>Short-Term Intern</h3>
+          <p>Modulated hydrothermal synthesis of fluorescent metal-organic frameworks for bioimaging applications in cancer studies.</p>
+        </div>
+      </li>
+
+      <li class="timeline__item">
+        <div class="timeline__date">
+          <span class="mono">Mar 2022 — May 2022</span>
+          <span class="timeline__place">NIT Calicut</span>
+        </div>
+        <div class="timeline__body">
+          <h3>Master's Thesis</h3>
+          <p>Developed a novel UV-mediated exfoliation technique for MXene synthesis — with comparative benchmarking against established techniques — and pioneered a strategy for MXene–conducting polymer film synthesis.</p>
+        </div>
+      </li>
+
+      <li class="timeline__item">
+        <div class="timeline__date">
+          <span class="mono">July 2021</span>
+          <span class="timeline__place">IIT Indore</span>
+        </div>
+        <div class="timeline__body">
+          <h3>Summer Intern</h3>
+          <p>Reviewed the role of two-dimensional materials in energy applications; explored advanced characterisation techniques.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ═══════════════════════ PUBLICATIONS ═══════════════════════ -->
+  <section class="section publications" id="publications">
+    <header class="section__head">
+      <span class="section__num mono">§ 04</span>
+      <h2 class="section__title">Selected <em>publications</em>.</h2>
+      <p class="section__kicker">Peer-reviewed in ACS, RSC &amp; Nanoscale.</p>
+    </header>
+
+    <div class="pub-list">
+      <article class="pub pub--featured">
+        <div class="pub__meta">
+          <span class="pub__year mono">2025</span>
+          <span class="pub__tag">Manuscript Submitted</span>
+        </div>
+        <h3 class="pub__title">
+          Silane-Coupling Impelled Metal Oxide–MXene Proximity: An Electrochemical Probe for Tracking <em>enteral histaminosis</em> In Vitro.
+        </h3>
+        <p class="pub__authors">
+          <strong>Richard Bartholomew</strong>, Manjusha Mathew, T. Janani, Jithin Thomas Chacko, Kannankuzhiyan Niyas, Priyadharishini Veeraraghavan, P. Abdul Rasheed.
+        </p>
+        <div class="pub__venue mono">— Under Review</div>
+      </article>
+
+      <article class="pub">
+        <div class="pub__meta">
+          <span class="pub__year mono">2024</span>
+          <span class="pub__tag pub__tag--first">First Author</span>
+        </div>
+        <h3 class="pub__title">
+          Lab on a syringe: Strategic design of 1T SnS₂/MXene embedded single-stranded carbon yarn for the real-time stress biomarker detection.
+        </h3>
+        <p class="pub__authors">
+          <strong>Richard Bartholomew</strong>, K. Niyas, Manjusha Mathew, P. Abdul Rasheed.
+        </p>
+        <div class="pub__venue mono">ACS Applied Electronic Materials · 6(9), 6905–6915</div>
+      </article>
+
+      <article class="pub">
+        <div class="pub__meta">
+          <span class="pub__year mono">2024</span>
+          <span class="pub__tag pub__tag--first">First Author</span>
+        </div>
+        <h3 class="pub__title">
+          Biological Metal-Organic Framework Embedded MXene Nanocomposite as a Wearable Transducer Patch for Real-Time Monitoring of the Sleep Hormone.
+        </h3>
+        <p class="pub__authors">
+          <strong>Richard Bartholomew</strong>, K. Niyas, Menon Ankitha, P. Abdul Rasheed.
+        </p>
+        <div class="pub__venue mono">ACS Applied Nano Materials · 7(8), 9585–9597</div>
+      </article>
+
+      <article class="pub">
+        <div class="pub__meta">
+          <span class="pub__year mono">2023</span>
+          <span class="pub__tag pub__tag--first">First Author</span>
+        </div>
+        <h3 class="pub__title">
+          Acoustic platforms meet MXenes — a new paradigm shift in the palette of biomedical applications.
+        </h3>
+        <p class="pub__authors">
+          <strong>Richard Bartholomew</strong>, C. Shahana, Raju Vivek, Amarendar Reddy, P. Abdul Rasheed.
+        </p>
+        <div class="pub__venue mono">Nanoscale · 15, 18156–18172</div>
+      </article>
+
+      <article class="pub">
+        <div class="pub__meta">
+          <span class="pub__year mono">2023</span>
+          <span class="pub__tag pub__tag--first">First Author</span>
+        </div>
+        <h3 class="pub__title">
+          Minireview on Fluid Manipulation Techniques for the Synthesis and Energy Applications of Two-Dimensional MXenes: Advances, Challenges, and Perspectives.
+        </h3>
+        <p class="pub__authors">
+          <strong>Richard Bartholomew</strong>, Susmi Anna Thomas, Amarender Reddy, Mohan Reddy Pallavolu, Jayesh Cherusseri.
+        </p>
+        <div class="pub__venue mono">ACS Energy &amp; Fuels · 37(10), 6999–7013</div>
+      </article>
+
+      <article class="pub">
+        <div class="pub__meta">
+          <span class="pub__year mono">2024</span>
+          <span class="pub__tag">Co-Author</span>
+        </div>
+        <h3 class="pub__title">
+          Sea urchin nanostructured nickel cobaltite modified carbon cloth integrated wearable patches for the on-site detection of the immunosuppressant drug mycophenolate mofetil.
+        </h3>
+        <p class="pub__authors">
+          K. Niyas, <strong>Richard Bartholomew</strong>, Menon Ankitha, Pathath Abdul Rasheed.
+        </p>
+        <div class="pub__venue mono">Analyst · 149, 3615–3624</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SKILLS ═══════════════════════ -->
+  <section class="section skills" id="skills">
+    <header class="section__head">
+      <span class="section__num mono">§ 05</span>
+      <h2 class="section__title">Technical <em>skills</em>.</h2>
+      <p class="section__kicker">Bench, beam, and byte.</p>
+    </header>
+
+    <div class="skills__grid">
+      <div class="skill-group">
+        <div class="skill-group__head">
+          <span class="mono">01</span>
+          <h3>Laboratory Synthesis</h3>
+        </div>
+        <p class="skill-group__desc">Techniques developed across soft-templated, solvothermal, and interface-driven routes.</p>
+        <ul class="skill-group__tags">
+          <li>Liquid–liquid interface</li>
+          <li>Hydrothermal</li>
+          <li>Solvothermal</li>
+          <li>MXenes</li>
+          <li>Transition Metal Oxides</li>
+          <li>Transition Metal Dichalcogenides</li>
+          <li>Metal-Organic Frameworks</li>
+          <li>Conducting Polymers</li>
+          <li>Hydrogels</li>
+          <li>Metallogels</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group__head">
+          <span class="mono">02</span>
+          <h3>Characterisation</h3>
+        </div>
+        <p class="skill-group__desc">Electrochemical and spectroscopic toolchain for structure, surface &amp; signal.</p>
+        <ul class="skill-group__tags">
+          <li>Cyclic Voltammetry</li>
+          <li>Chronoamperometry</li>
+          <li>Differential Pulse Voltammetry</li>
+          <li>Mott–Schottky Analysis</li>
+          <li>UPS</li>
+          <li>XPS</li>
+          <li>Raman Spectroscopy</li>
+          <li>SEM</li>
+          <li>XRD</li>
+          <li>UV-Vis Spectroscopy</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group__head">
+          <span class="mono">03</span>
+          <h3>Software</h3>
+        </div>
+        <p class="skill-group__desc">For figures, molecules, models, and manuscripts.</p>
+        <ul class="skill-group__tags">
+          <li>ChemDraw</li>
+          <li>BioRender</li>
+          <li>Blender</li>
+          <li>Excel</li>
+          <li>Word</li>
+          <li>PowerPoint</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ EDUCATION + AWARDS ═══════════════════════ -->
+  <section class="section edu-awards" id="awards">
+    <header class="section__head">
+      <span class="section__num mono">§ 06</span>
+      <h2 class="section__title">Education &amp; <em>recognition</em>.</h2>
+      <p class="section__kicker">Training and distinction.</p>
+    </header>
+
+    <div class="edu-awards__grid">
+      <div class="edu">
+        <h3 class="subsection-title">Education</h3>
+        <div class="edu-card">
+          <div class="edu-card__year mono">2020 — 2022</div>
+          <div class="edu-card__body">
+            <h4>M.Sc. in Chemistry</h4>
+            <p>Fatima Mata National College (Autonomous)<br/>Affiliated with the University of Kerala</p>
+            <span class="edu-card__grade">CGPA <strong>7.9</strong></span>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-card__year mono">2017 — 2020</div>
+          <div class="edu-card__body">
+            <h4>B.Sc. in Chemistry</h4>
+            <p>Fatima Mata National College (Autonomous)<br/>Affiliated with the University of Kerala</p>
+            <span class="edu-card__grade">CGPA <strong>8.7</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="awards">
+        <h3 class="subsection-title">Awards</h3>
+
+        <article class="award">
+          <div class="award__num mono">01</div>
+          <div class="award__body">
+            <h4>Best Poster Award</h4>
+            <p>International Conference on Sustainable and Applied Nanotechnology for Agriculture and Health (SANTAH), Department of Chemical Engineering, IIT Madras.</p>
+          </div>
+        </article>
+
+        <article class="award">
+          <div class="award__num mono">02</div>
+          <div class="award__body">
+            <h4>Best Paper Award <span class="pill pill--gold">Oral</span></h4>
+            <p>2nd Indo-Korea Virtual Conference on Development of Advanced Materials for Future Technologies (DAMFT 2021) — jointly organised by KAIST, South Korea &amp; VIT, Chennai.</p>
+          </div>
+        </article>
+
+        <article class="award">
+          <div class="award__num mono">03</div>
+          <div class="award__body">
+            <h4>Best Lecturer Award <span class="pill">Student</span></h4>
+            <p>Interdepartmental competition on behalf of the <em>International Year of the Periodic Table</em>, Department of Chemistry, Fatima Mata National College.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ CONTACT ═══════════════════════ -->
+  <section class="section contact" id="contact">
+    <div class="contact__inner">
+      <span class="eyebrow"><span class="eyebrow__dot"></span>Currently open to doctoral &amp; research opportunities</span>
+
+      <h2 class="contact__title">
+        Let's build<br/>
+        <em>something that matters.</em>
+      </h2>
+
+      <div class="contact__actions">
+        <a href="mailto:barthukattu1998@gmail.com" class="contact__link" data-magnetic>
+          <span class="mono">Email</span>
+          <span class="contact__value">barthukattu1998@gmail.com</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M8 7h9v9"/></svg>
+        </a>
+        <a href="tel:+919446639002" class="contact__link" data-magnetic>
+          <span class="mono">Phone</span>
+          <span class="contact__value">+91 94466 39002</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
+
+      <div class="references">
+        <h3 class="subsection-title">References</h3>
+        <div class="references__grid">
+          <div class="reference">
+            <h4>Dr. Abdul Rasheed P.</h4>
+            <p class="reference__role">DBT Ramalingaswami Fellow<br/>Dept. of Biological Sciences &amp; Engineering<br/>IIT Palakkad</p>
+            <a href="mailto:abdulrasheed@iitpkd.ac.in" class="reference__email mono">abdulrasheed@iitpkd.ac.in</a>
+          </div>
+          <div class="reference">
+            <h4>Dr. Amarendar Reddy M.</h4>
+            <p class="reference__role">Assistant Professor, Dept. of Chemistry<br/>School of Sciences<br/>NIT Andhra Pradesh</p>
+            <a href="mailto:amarendar@nitandhra.ac.in" class="reference__email mono">amarendar@nitandhra.ac.in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+  <footer class="footer">
+    <div class="footer__row">
+      <span class="mono">© 2026 Bartholomew Richard</span>
+      <span class="mono">Portfolio · v1.0</span>
+      <span class="mono">Palakkad · IN</span>
+    </div>
+    <div class="footer__giant" aria-hidden="true">Bartholomew<span class="italic"> Richard.</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
